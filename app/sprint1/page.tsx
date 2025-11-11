@@ -1,0 +1,18 @@
+import Link from "next/link";
+import { Container, Title, Text, Stack, Button } from "@mantine/core";
+// Add route to ticket component here from your file
+
+export default function Sprint1() {
+  return (
+    <Container size="md" py={48}>
+      <Stack>
+        <Title order={2}>Sprint 1</Title>
+        <Text>Put your ticket on this page!</Text>
+        {/* Ticket Component */}
+        <Link href="/">
+          <Button>Back to Sprint Page</Button>
+        </Link>
+      </Stack>
+    </Container>
+  );
+}
