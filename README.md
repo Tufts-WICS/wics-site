@@ -18,4 +18,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## WICS Website Landing Page
 
-https://www.notion.so/WICS-Website-Landing-Page-2a8c0480f995802cb021fe2830804d1f?source=copy_link
+[https://www.notion.so/WICS-Website-Landing-Page-2a8c0480f995802cb021fe2830804d1f?source=copy_link]
