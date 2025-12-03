@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Container, Title, Text, Stack, Button } from "@mantine/core";
-// Add route to ticket component here from your file
+import MyButton from "../components/Button";
 
 export default function Sprint1() {
   return (
@@ -8,7 +8,7 @@ export default function Sprint1() {
       <Stack>
         <Title order={2}>Sprint 1</Title>
         <Text>Put your ticket on this page!</Text>
-        {/* Ticket Component */}
+        {<MyButton />}
         <Link href="/">
           <Button>Back to Sprint Page</Button>
         </Link>
