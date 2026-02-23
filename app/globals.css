@@ -11,3 +11,25 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* HEADER-RELATED CSS CONTENT */
+
+.headerPadding {
+  display: flex;
+  justify-content: space-between; /* <-- add this */
+  gap: 16px;                
+  width: 100%;             
+  max-width: 1440px;    
+  height: 70px;
+  padding: 10px 70px;     
+  background-color: #16181C;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.rightButtons {
+  display: flex;  
+  gap: 50px;
+  align-items: center; 
+}
