@@ -7,7 +7,80 @@
 
 body {
   min-height: 100vh;
+  min-width: 25vw;
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER-RELATED CSS CONTENT */
+.headerPadding {
+  display: flex;
+  gap: 16px;                
+  width: 100%;               
+  height: 70px;
+  padding: 10px 70px;     
+  background-color: #16181C;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.rightLink {
+  display: flex;  
+  gap: 50px;
+  /* align-items: center;  */
+  margin-left: auto;
+}
+
+.rightLink a,
+.rightLink img {
+  flex-shrink: 0;
+}
+
+.mobileMenu {
+  display: none;
+  margin-left: auto;
+  position: relative;
+}
+
+.mobileMenu summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: 40px;
+  line-height: 27px;
+  color: var(--foreground);
+  user-select: none;
+}
+
+.mobileMenu summary::-webkit-details-marker {
+  display: none;
+}
+
+.mobileMenuPanel {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 70px;
+  background-color: #16181C;
+  z-index: 20;
+}
+
+.mobileMenuPanel a,
+.mobileMenuPanel img {
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .rightLink {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: block;
+  }
 }
