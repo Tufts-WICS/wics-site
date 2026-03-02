@@ -28,7 +28,7 @@ body {
   margin: 0 auto;
 }
 
-.rightButtons {
+.rightLink {
   display: flex;  
   gap: 50px;
   align-items: center; 

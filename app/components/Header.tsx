@@ -1,16 +1,17 @@
 
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header>
       <nav className="headerPadding">
-        <button className="brand"><img src="wics.svg"/></button>
-        <div className="rightButtons">
-        <button><img src="about.svg"/></button> 
-        {/* TODO-- add link functionalities */}
-        <button><img src="events.svg"/></button>
-        <button><img src="programs.svg"/></button>
-        <button><img src="eboard.svg"/></button>
-        <button><img src="get_connected.svg"/></button>
+        <Link href = "/" className="brand"><img src="wics.svg"/></Link>
+        <div className="rightLink">
+        <Link href = "/"><img src="about.svg"/></Link> 
+        <Link href = "/events"><img src="events.svg"/></Link>
+        <Link href = "/programs"><img src="programs.svg"/></Link>
+        <Link href = "/eboard"><img src="eboard.svg"/></Link>
+        <Link href = "/get-connected"><img src="get_connected.svg"/></Link>
         </div>
       </nav>
     </header>
