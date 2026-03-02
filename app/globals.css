@@ -27,6 +27,6 @@ body {
 .rightLink {
   display: flex;  
   gap: 50px;
-  align-items: center; 
+  /* align-items: center;  */
   margin-left: auto;
 }
