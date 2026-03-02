@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <nav className="headerPadding">
-        <Link href = "/" className="brand"><img src="wics.svg"/></Link>
+        <Link href = "/"><img src="wics.svg"/></Link>
         <div className="rightLink">
         <Link href = "/"><img src="about.svg"/></Link> 
         <Link href = "/events"><img src="events.svg"/></Link>
