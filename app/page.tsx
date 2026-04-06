@@ -1,9 +1,7 @@
-import Layout from './components/Layout';
 
 
 export default function Home() {
   return (
-    <Layout>
       <div className="flex flex-col items-center justify-center">
         <div>
           <h1 className="text-white flex bold text-xl justify-center pt-5">
@@ -11,7 +9,6 @@ export default function Home() {
           </h1>
         </div>
       </div>
-    </Layout>
 
   );
 }

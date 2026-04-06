@@ -1,9 +1,9 @@
+import DirectoryHeader from '@/app/components/Directory_Header';
+
 export default function Eboard() {
   return (
     <div>
-      <h1 className="text-white flex bold text-xl justify-center pt-5">
-        This is the eboard page
-      </h1>
+      <DirectoryHeader />
     </div>
   );
 }
